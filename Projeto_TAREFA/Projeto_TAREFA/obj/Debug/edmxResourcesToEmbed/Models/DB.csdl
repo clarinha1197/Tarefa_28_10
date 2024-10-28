@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB_TarefasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Prioridadee">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Tarefa" Relationship="Self.FK_Tarefa_Prioridadee" FromRole="Prioridadee" ToRole="Tarefa" />
+  </EntityType>
+  <EntityType Name="StatusTarefa">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Descricao" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Tarefa" Relationship="Self.FK_Tarefa_StatusTarefa" FromRole="StatusTarefa" ToRole="Tarefa" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Tarefa">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDUsu" Type="Int32" Nullable="false" />
+    <Property Name="IDPrio" Type="Int32" Nullable="false" />
+    <Property Name="IDStatus" Type="Int32" Nullable="false" />
+    <Property Name="Descricao" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DataCriacao" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Prioridadee" Relationship="Self.FK_Tarefa_Prioridadee" FromRole="Tarefa" ToRole="Prioridadee" />
+    <NavigationProperty Name="StatusTarefa" Relationship="Self.FK_Tarefa_StatusTarefa" FromRole="Tarefa" ToRole="StatusTarefa" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK_Tarefa_Usuario" FromRole="Tarefa" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Senha" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Tarefa" Relationship="Self.FK_Tarefa_Usuario" FromRole="Usuario" ToRole="Tarefa" />
+  </EntityType>
+  <Association Name="FK_Tarefa_Prioridadee">
+    <End Role="Prioridadee" Type="Self.Prioridadee" Multiplicity="1" />
+    <End Role="Tarefa" Type="Self.Tarefa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Prioridadee">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tarefa">
+        <PropertyRef Name="IDPrio" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tarefa_StatusTarefa">
+    <End Role="StatusTarefa" Type="Self.StatusTarefa" Multiplicity="1" />
+    <End Role="Tarefa" Type="Self.Tarefa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusTarefa">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tarefa">
+        <PropertyRef Name="IDStatus" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Tarefa_Usuario">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="1" />
+    <End Role="Tarefa" Type="Self.Tarefa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Tarefa">
+        <PropertyRef Name="IDUsu" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DB_TarefasEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Prioridadee" EntityType="Self.Prioridadee" />
+    <EntitySet Name="StatusTarefa" EntityType="Self.StatusTarefa" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Tarefa" EntityType="Self.Tarefa" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <AssociationSet Name="FK_Tarefa_Prioridadee" Association="Self.FK_Tarefa_Prioridadee">
+      <End Role="Prioridadee" EntitySet="Prioridadee" />
+      <End Role="Tarefa" EntitySet="Tarefa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tarefa_StatusTarefa" Association="Self.FK_Tarefa_StatusTarefa">
+      <End Role="StatusTarefa" EntitySet="StatusTarefa" />
+      <End Role="Tarefa" EntitySet="Tarefa" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Tarefa_Usuario" Association="Self.FK_Tarefa_Usuario">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Tarefa" EntitySet="Tarefa" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|c:\\users\\manha.cetafest\\source\\repos\\projeto_tarefa\\projeto_tarefa\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|solutionrelative:projeto_tarefa\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\projeto_tarefa\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|solutionrelative:projeto_tarefa\\views\\usuario\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\projeto_tarefa\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|solutionrelative:projeto_tarefa\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\projeto_tarefa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|solutionrelative:projeto_tarefa\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\projeto_tarefa\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|solutionrelative:projeto_tarefa\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\projeto_tarefa\\models\\db.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{5817CF24-5B02-44A4-855C-5DAB257B4E7B}|Projeto_TAREFA\\Projeto_TAREFA.csproj|solutionrelative:projeto_tarefa\\models\\db.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "Projeto_TAREFA\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "Projeto_TAREFA\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T14:05:26.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Projeto_TAREFA\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Projeto_TAREFA\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T13:54:19.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Views\\Usuario\\Login.cshtml",
+              "RelativeDocumentMoniker": "Projeto_TAREFA\\Views\\Usuario\\Login.cshtml",
+              "ToolTip": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Views\\Usuario\\Login.cshtml",
+              "RelativeToolTip": "Projeto_TAREFA\\Views\\Usuario\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T13:53:24.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Projeto_TAREFA\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Projeto_TAREFA\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAiwFoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:52:28.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TarefaController.cs",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Controllers\\TarefaController.cs",
+              "RelativeDocumentMoniker": "Projeto_TAREFA\\Controllers\\TarefaController.cs",
+              "ToolTip": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Controllers\\TarefaController.cs",
+              "RelativeToolTip": "Projeto_TAREFA\\Controllers\\TarefaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T13:38:25.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DB.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Models\\DB.edmx",
+              "RelativeDocumentMoniker": "Projeto_TAREFA\\Models\\DB.edmx",
+              "ToolTip": "C:\\Users\\manha.cetafest\\source\\repos\\Projeto_TAREFA\\Projeto_TAREFA\\Models\\DB.edmx [Diagram1]",
+              "RelativeToolTip": "Projeto_TAREFA\\Models\\DB.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-28T13:33:21.486Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
